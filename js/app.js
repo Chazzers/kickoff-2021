@@ -17,7 +17,8 @@ const data = {
 		html: 94,
 		css: 80,
 		js: 75
-	}
+	},
+	url: 'https://chazzers.github.io/kickoff-2021/'
 }
 
 async function postData(url = '', data = {}) {
