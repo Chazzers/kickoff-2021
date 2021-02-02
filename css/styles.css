@@ -1,6 +1,6 @@
 :root {
   --primary:#FFF;
-  --secondary:#000;
+  --secondary:#183133;
 }
 
 * {
@@ -9,7 +9,7 @@
 }
 
 html {
-  background: var(--primary);
+  background: var(--secondary);
   color: var(--secondary);
   font-family: "Open sans", Helvetica, Sans-Serif;
 }
@@ -21,10 +21,6 @@ article {
 	box-shadow: 8px 8px 100px rgba(0,0,0,20%);
 	padding: 1em;
 	transition: 1s all ease;
-}
-
-article h1 {
-	color: purple;
 }
 
 main {

@@ -93,6 +93,9 @@ function createElement(htmlTag, container, content) {
 	}
 	container.appendChild(tag)
 }
+// Usage: 
+// const container = document.querySelector('#container')
+// createElement('div', container, data.title)
 
 function createImgElement(src, container) {
 	const img = document.createElement('img')
